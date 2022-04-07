@@ -14,7 +14,7 @@ public class UtilityTest
 
    private final String inputString;
 
-   @Parameterized.Parameters(name = "{index}: testHashMod5{0}")
+   @Parameterized.Parameters(name = "testHashMod5{0}")
    public static List<String> parameters() throws Exception
    {
       List<String> parameters = new ArrayList<>(5);
