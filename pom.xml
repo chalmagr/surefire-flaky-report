@@ -11,7 +11,7 @@
    <properties>
       <maven.compiler.source>8</maven.compiler.source>
       <maven.compiler.target>8</maven.compiler.target>
-      <surefire.version>3.0.0-M5</surefire.version>
+      <surefire.version>3.0.0-M7-SNAPSHOT</surefire.version>
       <junit.version>4.12</junit.version>
       <junit5.version>5.2.0</junit5.version>
       <test.home.dir.name>test-home</test.home.dir.name>
@@ -91,6 +91,7 @@
                <configuration>
                   <skip>true</skip>
                   <workingDirectory>${test.run.dir}</workingDirectory>
+                  <trimStackTrace>true</trimStackTrace>
                   <systemPropertyVariables>
                      <classpath.suite.testclasses.dir>${project.build.testOutputDirectory}</classpath.suite.testclasses.dir>
                   </systemPropertyVariables>
