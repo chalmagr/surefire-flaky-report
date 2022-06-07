@@ -2,15 +2,15 @@ package org.example;
 
 public class Utility
 {
-   private static final String SALT = "someSalt";
+    private static final String SALT = "someSalt";
 
-   private Utility()
-   {
-   }
+    private Utility()
+    {
+    }
 
-   public static boolean hash(String input)
-   {
-      int hash = input.concat(SALT).hashCode();
-      return hash % 5 != 0;
-   }
+    public static boolean hash( String input )
+    {
+        int hash = input.concat( SALT ).hashCode();
+        return hash % 5 != 0;
+    }
 }
