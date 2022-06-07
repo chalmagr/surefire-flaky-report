@@ -39,7 +39,7 @@ class WithBogusDisplayNameTest
 
     @ParameterizedTest( name = "displayName" )
     @ArgumentsSource( value = ParameterSource.class )
-    void testHashMod5( String inputString ) throws Exception
+    void nonFlaky( String inputString ) throws Exception
     {
         Assertions.assertTrue( Utility.hash( inputString ), "Failed to validate input " + inputString );
     }

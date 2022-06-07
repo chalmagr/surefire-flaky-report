@@ -36,7 +36,7 @@ public class WithoutDisplayNameTest
     public String inputString;
 
     @Test
-    public void testHashMod5() throws Exception
+    public void nonFlaky() throws Exception
     {
         assertTrue( "Failed to validate input " + inputString, Utility.hash( inputString ) );
     }
