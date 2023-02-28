@@ -11,7 +11,7 @@
    <properties>
       <maven.compiler.source>8</maven.compiler.source>
       <maven.compiler.target>8</maven.compiler.target>
-      <surefire.version>3.0.0-M7</surefire.version>
+      <surefire.version>3.0.0-M9</surefire.version>
       <junit.version>4.12</junit.version>
       <junit5.version>5.3.2</junit5.version>
       <test.home.dir.name>test-home</test.home.dir.name>
